@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="3" name="Failed suite [Test case run on Two environment]" parallel="tests">
+  <parameter name="os" value="Mac"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value=""/>
+  <test name="Run on Firefox(failed)" parallel="tests">
+    <parameter name="os" value="Mac"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value=""/>
+    <classes>
+      <class name="automationFramework.TestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testGitHubLink"/>
+          <include name="testTitle"/>
+          <include name="testProjectLink"/>
+        </methods>
+      </class> <!-- automationFramework.TestCase -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+  <test name="BVT on Chrome(failed)" parallel="tests">
+    <parameter name="os" value="Mac"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value=""/>
+    <classes>
+      <class name="automationFramework.TestCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="testGitHubLink"/>
+          <include name="testTitle"/>
+          <include name="testProjectLink"/>
+        </methods>
+      </class> <!-- automationFramework.TestCase -->
+    </classes>
+  </test> <!-- BVT on Chrome(failed) -->
+</suite> <!-- Failed suite [Test case run on Two environment] -->

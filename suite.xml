@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test case run on Two environment" verbose="3" parallel="tests" thread-count="2">
+  <test name="BVT on Chrome">
+    <parameter name="browser"  value="chrome"/>
+    <parameter name="version"  value=""/>
+    <parameter name="os"  value="Mac"/>
+    <classes>
+      <class name="automationFramework.TestCase"/>
+    </classes>
+  </test>
+  <test name="Run on Firefox">
+    <parameter name="browser"  value="firefox"/>
+    <parameter name="version"  value=""/>
+    <parameter name="os"  value="Mac"/>
+    <classes>
+      <class name="automationFramework.TestCase"/>
+    </classes>
+  </test>
+</suite>
