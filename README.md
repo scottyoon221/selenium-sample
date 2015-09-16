@@ -76,7 +76,7 @@ Once the test is completed, it will generate report under root directory as repo
 
 
 #### Troubleshootings
-- Some Eclipse IDE has problem installing TestNG plugin. Use the version of Eclipse and Java mentioned in **<Development platform, tools and libraries>**
+- Some Eclipse IDE has problem installing TestNG plugin. Use the version of Eclipse and Java mentioned in **Development platform, tools and libraries**
 - Chrome requires chromedriver to work properly with Selenium.
 
 
