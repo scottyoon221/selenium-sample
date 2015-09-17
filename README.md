@@ -1,4 +1,4 @@
-## Sample Selenium Test Uing Grid
+## Sample Selenium Test
 ##### Author: Scott Yoon
 ##### Email: scottyoon221@yahoo.com
 
@@ -14,7 +14,7 @@ Selenium is a popular web browser automation testing suite. The current project 
 1. Selnium hub makes handshakes with nodes.
 2. Execute testNG XML file to run tests.
 3. Selnium hub receives tests then distribute it to appropriate nodes.
-4. Nodes receives tests then executes tests.
+4. Nodes receives tests then launch tests against browser(s).
 5. Once tests are completed, report file is generated.
 
 ### Version of Development Platform, Tools and Libraries:
